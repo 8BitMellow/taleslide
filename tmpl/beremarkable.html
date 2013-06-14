@@ -1,0 +1,49 @@
+<h1>Be Remarkable</h1>
+<div class="span10 center well-large deck-container">
+
+
+  <section class="slide deck-current">
+    <h2>Nancy Duarte</h2>
+    <p class="lead">The Structure of a Great TalkH</p>
+    <!--<iframe width="640" height="360" src="http://www.youtube.com/embed/1nYFpuc2Umk?rel=0" frameborder="0" allowfullscreen></iframe>-->
+  </section>
+
+  <section class="slide deck-next">
+    <h2>Another Slide</h2>
+    <blockquote cite="http://example.com">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p><cite>Cicero</cite></p>
+    </blockquote>
+    <ul>
+      <li>Point 1</li>
+      <li>Point 2</li>
+      <li>Point 3</li>
+    </ul>
+  </section>
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>  
+<!-- deck.status snippet -->
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+
+</p>
+
+</div>
+<!-- deck.goto snippet -->
+<!--
+<form action="." method="get" class="goto-form center">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+-->
+
+
+<script>
+	$(function() {
+		$.deck('.slide');
+	});
+</script>
